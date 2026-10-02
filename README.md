@@ -99,8 +99,10 @@ notebook again from a fresh kernel.
 
 If you accidentally change the structure, obtain a fresh copy of the released
 notebook and copy only your answers into its designated answer regions. A
-submission whose structure has changed is set aside for manual inspection, and
-an answer that cannot be identified reliably receives zero for that component.
+submission whose structure has changed is set aside for manual inspection and
+loses 20 points, because staff have to repair the file by hand before it can
+be graded. An answer that cannot be identified reliably receives zero for that
+component.
 
 ## Deliverables
 
