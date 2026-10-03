@@ -117,6 +117,10 @@ rather than the filename alone, remains the authoritative student identity.
 The required filename format is nevertheless mandatory, and a submission
 whose file name does not follow it loses 10 points.
 
+A late submission loses 10 points for every hour past the submission time,
+and a started hour counts as a whole hour, so a submission ten hours late
+receives zero. Moodle's record of the upload time is what counts.
+
 You may submit unanswered work; an unanswered cell receives zero for that
 component. An unreadable file or a file that is not an `.ipynb` notebook
 cannot be graded and receives a grade of zero.
