@@ -51,6 +51,15 @@ def check_probability_calculation(
     """Check the guided probability-to-loss calculation."""
     import torch
 
+    # Accept plain Python numbers as well as tensors, so that a correct answer
+    # computed with .item() and math.log is not rejected for its type.
+    def as_tensor(value: object) -> object:
+        return torch.as_tensor(value, dtype=probabilities.dtype)
+
+    true_probability = as_tensor(true_probability)
+    loss_nats = as_tensor(loss_nats)
+    token_perplexity = as_tensor(token_perplexity)
+
     expected_probability = probabilities[true_token_id]
     if not torch.isclose(true_probability, expected_probability):
         raise AssertionError(
