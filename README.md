@@ -114,7 +114,8 @@ in Colab, rename it to `homework01_colab_STUDENTNUMBER.ipynb`, replacing
 `homework01_colab_21802962.ipynb`, and download it with File > Download >
 Download .ipynb. Upload that exact file to Moodle. Moodle's account record,
 rather than the filename alone, remains the authoritative student identity.
-The required filename format is nevertheless mandatory.
+The required filename format is nevertheless mandatory, and a submission
+whose file name does not follow it loses 10 points.
 
 You may submit unanswered work; an unanswered cell receives zero for that
 component. An unreadable file or a file that is not an `.ipynb` notebook
