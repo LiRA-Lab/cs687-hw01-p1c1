@@ -47,7 +47,8 @@ does not receive partial credit. The written responses are graded separately.
 
 ## Google Colab
 
-Download `notebooks/homework01_colab.ipynb` from this repository and upload it
+The notebook, `homework01_colab.ipynb`, is attached to the Moodle assignment
+"Homework 1 · Project 1, Checkpoint 1". Download it from there and upload it
 to Google Colab. Work in that uploaded notebook and save it there; do not
 create a new notebook and paste the cells into it, because a new notebook loses
 the cell identifiers and metadata that grading depends on. Run the notebook
@@ -112,7 +113,8 @@ The completed notebook is the single Homework 1 submission. Save the notebook
 in Colab, rename it to `homework01_colab_STUDENTNUMBER.ipynb`, replacing
 `STUDENTNUMBER` with your student number, for example
 `homework01_colab_21802962.ipynb`, and download it with File > Download >
-Download .ipynb. Upload that exact file to Moodle. Moodle's account record,
+Download .ipynb. Upload that exact file, and only that file, to the Moodle
+assignment "Homework 1 · Project 1, Checkpoint 1". Moodle's account record,
 rather than the filename alone, remains the authoritative student identity.
 The required filename format is nevertheless mandatory, and a submission
 whose file name does not follow it loses 10 points.
